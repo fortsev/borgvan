@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Главная - Borgvan</title>
+</head>
+<body>
+<div class="all-page">
+<div class="modal-window" id="modal">
+    <div class="modal-window-block">
+        <span id="drop_modal" class="modal-window-block-close" onclick="modalDrop()"></span>
+        <div class="feedback-form-block">
+            <div class="feedback-form-block-input">
+                <input type="text" placeholder="Ваше имя">
+                <input type="text" placeholder="Телефон">
+            </div>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Сообщение"></textarea>
+            <div class="feedback-form-block-bottom">
+                <button>Отправить</button>
+                <div class="feedback-form-block-bottom-check">
+                    <input type="checkbox" name="politic" id="politic" value="0">
+                    <label for="politic"></label>
+                    <a href="#">Политика конфиденциальности</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <nav role="navigation">
+        <div id="menuToggle" class="menuToggle">
+            <input type="checkbox" />
+            <div class="menu-hambur">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="stone-floor.html">Каменный ковёр</a></li>
+                <li><a href="sand-floor.html">Песочный ковёр</a></li>
+                <li><a href="glass-floor.html">Стеклянный ковёр</a></li>
+                <li><a href="chips-floor.html">Чипсовый ковёр</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="header-video-block">
+            <video class="header-video" loop="loop" autoplay="" muted="">
+                <source src="video/homeback.MP4" type="video/mp4" />
+
+            </video>
+            <div class="curtain">
+            </div>
+        </div>
+        <div class="header-content-top">
+            <div class="header-content-top-text">
+                <h1>Borgvan</h1>
+                <p>Уникальное экологическое покрытие для разнообразных дизайнерских решений жилых помещений</p>
+                <ol class="mouse">
+                    <div class="scroll"></div>
+                </ol>
+            </div>
+        </div>
+    </header>
+    <div class="header-content">
+        <div class="header-content-list">
+            <div class="header-content-list-item">
+                <div class="header-content-list-item-content">
+                    <a href="stone-floor.html"><img src="image/product-1.png" alt="Каменный ковер"></a>
+                    <a href="stone-floor.html"><span class="header-content-list-item-title">
+                            Каменный ковер
+                        </span></a>
+                    <span class="header-content-list-item-text">
+                            Это полимерное покрытие, состоящее из двух компонентов – минеральных частичек и полимерных смол. В качестве наполнителя используется мелкая галька или каменная крошка, а также природный камень, ракушечник, мраморная крошка, гранит, гравий, травертин и другие горные породы. Такой «каменный ковер» может быть многоцветным, с хаотичным смешением цветов или сложным рисунком мозаики, крупным и мелким каменным «ворсом».
+                        </span>
+                    <span class="button" onclick="modalOpen()">
+                            Задать вопрос
+                        </span>
+                </div>
+            </div>
+            <div class="header-content-list-item">
+                <div class="header-content-list-item-content">
+                    <a href="sand-floor.html"><img src="image/product-2.png" alt="Песочный ковер"></a>
+                    <a href="sand-floor.html"><span class="header-content-list-item-title">
+                            Песочный ковёр
+                        </span></a>
+                    <span class="header-content-list-item-text">
+                            Это покрытие ещё называется полимерокварцевое из-за использования кварцевых песков разной зернистости. Крашеный песок с цветовой палитрой, включающей множество оттенков, придает такому покрытию интересные декоративные свойства. Песок может перемешиваться между собой, что позволяет достичь уникальных цветовых сочетаний. Это означает, что в каждом конкретном случае получается эксклюзивное покрытие, не имеющее аналогов в цветовых вариациях.
+                        </span>
+                    <span class="button" onclick="modalOpen()">
+                            Задать вопрос
+                        </span>
+                </div>
+            </div>
+            <div class="header-content-list-item">
+                <div class="header-content-list-item-content">
+                    <a href="glass-floor.html"><img src="image/product-4.png" alt="Стеклянный ковер"></a>
+                    <a href="glass-floor.html"><span class="header-content-list-item-title">
+                            Стеклянный ковёр
+                        </span></a>
+                    <span class="header-content-list-item-text">
+                            Цветное стекло также может использоваться для декорируемых покрытий или даже для создания настенных ковров с красочными узорами. Стеклянные гранулы смешиваются со связующим веществом, специально разработанным для применения на вертикальных поверхностях. Возможности безграничны, от простых цветовых зон до сложных узоров, красивых рисунков или настенных росписей. 
+                        </span>
+                    <span class="button" onclick="modalOpen()">
+                            Задать вопрос
+                        </span>
+                </div>
+            </div>
+            <div class="header-content-list-item">
+                <div class="header-content-list-item-content">
+                    <a href="chips-floor.html"><img src="image/product-3.png" alt="Чипсовый ковер"></a>
+                    <a href="chips-floor.html"><span class="header-content-list-item-title">
+                            Чипсовый ковёр
+                        </span></a>
+                    <span class="header-content-list-item-text">
+                            Декоративные чипсы (флоки) – это частицы окрашенного акрила, которые используются для отделки практически любых поверхностей. Чипсы – универсальный материал, позволяющий решать множество задач при устройстве полимерных покрытий. Даже при использовании не большого количества флоков, покрытие не теряет своих декоративных свойств с течением времени, следы истирания на нем фактически не заметны.
+                        </span>
+                    <span class="button" onclick="modalOpen()">
+                            Задать вопрос
+                        </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-content-mobile">
+        <div class="header-content-mobile-box">
+            <a href="stone-floor.html"><img src="image/product-1.png" alt="Каменный ковер"></a>
+            <div class="header-content-mobile-box-cont">
+                <a href="stone-floor.html"><span class="header-content-mobile-box-title">
+                            Каменный ковер
+                </span></a>
+                <span class="header-content-mobile-box-text">
+                            Это полимерное покрытие, состоящее из двух компонентов – минеральных частичек и полимерных смол. В качестве наполнителя используется мелкая галька или каменная крошка, а также природный камень, ракушечник, мраморная крошка, гранит, гравий, травертин и другие горные породы. Такой «каменный ковер» может быть многоцветным, с хаотичным смешением цветов или сложным рисунком мозаики, крупным и мелким каменным «ворсом».
+                        </span>
+                <span class="button" onclick="modalOpen()">
+                            Задать вопрос
+                        </span>
+            </div>
+        </div>
+        <div class="header-content-mobile-box">
+            <a href="sand-floor.html"><img src="image/product-2.png" alt="Песочный ковер"></a>
+            <div class="header-content-mobile-box-cont">
+                <a href="sand-floor.html"><span class="header-content-mobile-box-title">
+                            Песочный ковёр
+                </span></a>
+                <span class="header-content-mobile-box-text">
+                            Это покрытие ещё называется полимерокварцевое из-за использования кварцевых песков разной зернистости. Крашеный песок с цветовой палитрой, включающей множество оттенков, придает такому покрытию интересные декоративные свойства. Песок может перемешиваться между собой, что позволяет достичь уникальных цветовых сочетаний. Это означает, что в каждом конкретном случае получается эксклюзивное покрытие, не имеющее аналогов в цветовых вариациях.
+                        </span>
+                <span class="button" onclick="modalOpen()">
+                            Задать вопрос
+                        </span>
+            </div>
+        </div>
+        <div class="header-content-mobile-box">
+            <a href="glass-floor.html"><img src="image/product-4.png" alt="Стеклянный ковер"></a>
+            <div class="header-content-mobile-box-cont">
+                <a href="glass-floor.html"><span class="header-content-mobile-box-title">
+                            Стеклянный ковёр
+                </span></a>
+                <span class="header-content-mobile-box-text">
+                            Цветное стекло также может использоваться для декорируемых покрытий или даже для создания настенных ковров с красочными узорами. Стеклянные гранулы смешиваются со связующим веществом, специально разработанным для применения на вертикальных поверхностях. Возможности безграничны, от простых цветовых зон до сложных узоров, красивых рисунков или настенных росписей. 
+                        </span>
+                <span class="button" onclick="modalOpen()">
+                            Задать вопрос
+                        </span>
+            </div>
+        </div>
+        <div class="header-content-mobile-box">
+            <a href="chips-floor.html"><img src="image/product-3.png" alt="Чипсовый ковер"></a>
+            <div class="header-content-mobile-box-cont">
+                <a href="chips-floor.html"><span class="header-content-mobile-box-title">
+                            Чипсовый ковёр
+                </span></a>
+                <span class="header-content-mobile-box-text">
+                            Декоративные чипсы (флоки) – это частицы окрашенного акрила, которые используются для отделки практически любых поверхностей. Чипсы – универсальный материал, позволяющий решать множество задач при устройстве полимерных покрытий. Даже при использовании не большого количества флоков, покрытие не теряет своих декоративных свойств с течением времени, следы истирания на нем фактически не заметны.
+                        </span>
+                <span class="button" onclick="modalOpen()">
+                            Задать вопрос
+                        </span>
+            </div>
+        </div>
+    </div>
+    <!--<div class="curtain"></div>-->
+    <div class="content">
+        <section class="advantages">
+            <div class="advantages-title">
+                Преимущества технологии
+            </div>
+            <div class="advantages-list">
+                <div class="advantages-list-column-left">
+                    <div class="wow slideInLeft advantages-list-item" data-wow-duration="3s">
+                        <img src="image/advan-1.png" alt="Преимущества">
+                        <p>Бесшовность покрытий даёт<br>
+                            эффект чистой комнаты</p>
+                    </div>
+                    <div class="wow slideInLeft advantages-list-item" data-wow-duration="3s" data-wow-delay="0.5s">
+                        <img src="image/advan-2.png" alt="Преимущества">
+                        <p>Лёгкость устранения<br>
+                            эксплуатационных дефектов
+                        </p>
+                    </div>
+                    <div class="wow slideInLeft advantages-list-item" data-wow-duration="3s" data-wow-delay="0.5s">
+                        <img src="image/advan-5.png" alt="Преимущества">
+                        <p>Антискользящее покрытие
+                        </p>
+                    </div>
+                </div>
+                <div class="advantages-list-column-right">
+                    <div class="wow slideInRight advantages-list-item" data-wow-duration="3s">
+                        <img src="image/advan-3.png" alt="Преимущества">
+                        <p>Износостойкость<br>
+                            и простата в уборке
+                        </p>
+                    </div>
+                    <div class="wow slideInRight advantages-list-item" data-wow-duration="3s" data-wow-delay="0.5s">
+                        <img src="image/advan-4.png" alt="Преимущества">
+                        <p>СПА эффект, покрытия полов<br>
+                            обеспечивают массаж ступней
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="footer-title">
+                Borgvan
+            </div>
+            <ul class="footer-list">
+                <li>
+                    <span class="footer-list-item-number">01</span>
+                    <span class="footer-list-item-text">Продукция</span>
+                </li>
+                <li>
+                    <span class="footer-list-item-number">02</span>
+                    <span class="footer-list-item-text">Преимущества</span>
+                </li>
+                <li>
+                    <span class="footer-list-item-number">03</span>
+                    <span class="footer-list-item-text">Контакты</span>
+                </li>
+            </ul>
+            <div class="footer-contact">
+                <a href="tel:+79209131090" class="footer-contact-phone">+7 920 913 10 90</a>
+                <span class="button" onclick="modalOpen()">
+                    Задать вопрос
+                </span>
+            </div>
+        </section>
+    </div>
+</div>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/feedback.js"></script>
+
+</body>
+</html>
